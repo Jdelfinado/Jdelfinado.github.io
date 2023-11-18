@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="home.html"><img src="images/logo.png" alt="My Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="Hobbies.html">Hobbies</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="Workout.html">Workout</a>
+            <a class="dropdown-item" href="Gaming.html">Gaming</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="Life.html">Life</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownLife">
+            <a class="dropdown-item" href="Sports.html">Sports</a>
+            <a class="dropdown-item" href="Work.html">Work</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact Us</a>
+      </ul>
+    </div>
+  </nav>
+
+<div class="layered-container">
+    <div class="content">
+      <div class="form-container">
+        <h1>Support Form</h1>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="dateOfSupport">Date of Support:</label>
+            <input type="date" id="dateOfSupport" name="dateOfSupport" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" required>
+          </fieldset>
+
+          <fieldset>
+            <legend>Compose</legend>
+            <label for="message">Compose:</label>
+            <textarea id="message" name="message" rows="7" required></textarea>
+          </fieldset>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+    <footer>
+
+        <ul class="footer-list">
+            <li><a href="https://www.facebook.com/dolphin004/">Facebook</a></li>
+            <li><a href="https://instagram.com/deeeelfiiii">Instagram</a></li>
+            <li><a href="https://x.com/advidelfi">Twitter</a></li>
+            <li><a href="https://www.youtube.com/@zen-uv8vs">Youtube</a></li>
+            <li><a href="https://steamcommunity.com/id/The0nlyTrueMessiah/">Steam</a></li>
+        </ul>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

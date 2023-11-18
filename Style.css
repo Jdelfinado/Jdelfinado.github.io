@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'impact';
+  }
+
+  .navbar {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .navbar-dark .navbar-nav .nav-link,
+  .navbar-dark .navbar-nav .nav-item.dropdown .nav-link {
+      font-size: 24px;
+      color: #ffffff; /* Set the desired text color */
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    font-size: 24px; /* Set the desired font size for the navbar toggler icon */
+  }
+
+  .navbar-dark .navbar-nav .nav-item {
+    margin-right: 10px; /* Adjust the right margin to add spacing between items */
+  }
+
+  /* Optional: Add left margin to the first item for consistency */
+  .navbar-dark .navbar-nav .nav-item:first-child {
+      margin-left: 10px; /* Adjust the left margin for the first item */
+  }
+
+  .navbar a, .dropdown-item {
+    color: white;
+  }
+
+  .navbar a:hover, .dropdown-item:hover {
+    background-color: none;
+    text-decoration: underline;
+    color: tan !important;
+  }
+
+  .navbar .dropdown-toggle::after {
+    content: none; /* Remove the arrow indicator */
+  }
+
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #333; /* Change the background color */
+    left: -17px;
+    min-width: 10px!important;
+    top: 95%;
+
+
+    
+  }
+
+  .navbar-nav .nav-item.dropdown .dropdown-menu a {
+    color: #ffffffff; /* Change the text color */
+    font-size: 24px; /* Change the font size */
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* Adjust styles as needed */
+  .navbar-nav .nav-item.dropdown .dropdown-menu {
+    background-color: #333;
+  }
+
+  .layered-container {
+    position: relative;
+    min-height: 95vh;
+    background: url('images/mcsun.gif') center/cover no-repeat fixed;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .content-set {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+
+  .content-set1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .text-with-image {
+    display: flex;
+    flex-direction: column; /* Reverse the order of text and image */
+  }
+
+  .text-with-image1 {
+    display: flex;
+    flex-direction: row; /* Reverse the order of text and image */
+  }
+
+  .text-content,
+  .image-content {
+    flex: 1; /* Make both content areas share the available space */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+
+  .image-content img {
+    max-width: 20%;
+    display: block; /* Remove any default inline spacing */
+    margin: 0 auto; /* Center the image horizontally within its container */
+    border-radius: 10px;
+  }
+
+  .image-container {
+    display: contents;
+    justify-content: space-between; /* Adjust as needed */
+  }
+
+  .image-container img {
+    width: 70%;
+    max-width: 500px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: add rounded corners */
+    margin: 10px; /* Adjust as needed */
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+
+  fieldset {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  footer {
+    padding: 9.5px;
+    color: white;
+    background-color: #333;
+    font-family: Impact;
+    text-align: center;
+}
+
+  ul.footer-list {
+    list-style: disc;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  ul.footer-list li {
+    margin-right: -350px;
+  }
+
+  ul.footer-list li:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+  }
+
+  ul.footer-list li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul.footer-list li a:hover {
+    color: tan; /* Set the color on hover */
+    text-decoration: underline; /* Add underline on hover */
+  }
