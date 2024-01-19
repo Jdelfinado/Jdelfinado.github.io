@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+    position: relative;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+    max-width: 800px;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 20px;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    transition: border-bottom 0.5s;
+}
+
+h1, h2 {
+    color: #333;
+    transition: color 0.5s;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.education, .experience {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    max-width: 250px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10%;
+    background-color: gray;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    transition: background-color 0.5s, color 0.5s;
+}
